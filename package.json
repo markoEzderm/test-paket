@@ -1,0 +1,19 @@
+{
+  "name": "test-paket",
+  "version": "1.0.0",
+  "description": "Ovaj paket je template za pakete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markoEzderm/test-paket.git"
+  },
+  "author": "Marko Micic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markoEzderm/test-paket/issues"
+  },
+  "homepage": "https://github.com/markoEzderm/test-paket#readme"
+}
