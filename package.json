@@ -1,6 +1,6 @@
 {
   "name": "test-paket",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Ovaj paket je template za pakete",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/markoEzderm/test-paket/issues"
   },
-  "homepage": "https://github.com/markoEzderm/test-paket#readme"
+  "homepage": "https://github.com/markoEzderm/test-paket#readme",
+  "devDependencies": {
+    "react": "^16.7.0"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  }
 }
