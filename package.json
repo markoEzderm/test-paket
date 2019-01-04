@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Ovaj paket je template za pakete",
   "main": "index.js",
+  "sideEffects": false,
+  "module": "dist/test-kom.esm.js",
+  "browser": "dist/test-kom.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +20,9 @@
   },
   "homepage": "https://github.com/markoEzderm/test-paket#readme",
   "devDependencies": {
-    "react": "^16.7.0"
+    "react": "^16.7.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
   },
   "peerDependencies": {
     "react": "16.x"
