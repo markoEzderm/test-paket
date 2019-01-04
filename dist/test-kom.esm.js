@@ -9,3 +9,5 @@ class TestKom extends React.Component {
     );
   }
 }
+
+export default TestKom;
